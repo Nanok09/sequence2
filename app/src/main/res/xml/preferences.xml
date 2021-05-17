@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="identifiants"
+        android:summary="Saisie des identifiants utilisateur"
+        android:title="Identifiants">
+        <EditTextPreference
+            android:defaultValue=""
+            android:key="login"
+            android:title="Login" />
+    </PreferenceCategory>
+</PreferenceScreen>
